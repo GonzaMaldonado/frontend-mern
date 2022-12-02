@@ -1,0 +1,33 @@
+@import "~/src/scss/index.scss";
+
+.course-form {
+    &__miniature {
+        margin-bottom: 16px;
+        
+        > div {
+            width: 100%;
+            min-height: 120px;
+            border: 2px dashed $primary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                opacity: .6;
+                cursor: pointer;
+            }
+        }
+
+        > .ui.image {
+            width: 70%;
+            height: 120px;
+            min-height: 100px;
+            margin: 0 auto;
+            border: 2px dashed $primary;
+            padding: 5px;
+            &:hover {
+                opacity: .6;
+                cursor: pointer;
+            }
+        }
+    }
+}

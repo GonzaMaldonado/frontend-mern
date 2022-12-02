@@ -1,0 +1,13 @@
+.newsletter-page {
+    .ui.segment.tab {
+        height: calc(100vh - 100px);
+        overflow-y: scroll;
+        //&::-webkit-scrollbar {      //Esto saca la barra de scroll
+        //    display: none;          //la hace invisible igual se puede hacer scroll
+        //}
+    }
+
+    .ui.menu.secondary {
+        min-height: 0;
+    }
+}
