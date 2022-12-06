@@ -48,7 +48,7 @@ export function CourseForm(props) {
         if(formik.values.file) {
             return formik.values.miniature;
         } else if(formik.values.miniature) {
-            return `${ENV.BASE_PATH}/${formik.values.miniature}`;
+            return `${ENV.BASE_API}/${formik.values.miniature}`;
         }
         return null;
     };
